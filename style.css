@@ -95,7 +95,7 @@ background-color: #121214;
 
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 90%;
   border: thin solid #ffffff1a;
 
 
@@ -144,9 +144,21 @@ tbody td button:hover {
       
     }
 
+    .tabela {
+       display: flex;
+       justify-content: start;
+       margin: 0;
+       flex-direction: column;
+    }
+
     
-    table{
-       width: 100%;
+     .tabela table{
+      display: block;
+      width: 380px;
+      margin: 0 auto;
+    
+
+      
     }
 
 
@@ -198,7 +210,7 @@ tbody td button:hover {
    
    .container input {
       height: 10px;
-      width: 300px;
+      width: 350px;
     
     
     }
