@@ -1,0 +1,226 @@
+body {
+  color: #ffffff;
+   background-color: #121214;
+   font: 300 16px/140% 'Roboto', sans-serif;
+}
+
+h1 {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.6em;
+  text-align: center;
+}
+
+
+.form-conteudo {
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+
+legend{
+  display: none;
+}
+
+
+
+fieldset {
+
+  border: none;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+}
+
+.form-conteudo input {
+background-color: #121214;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: thin solid #ffffff1a;
+  color: #ffffff;
+  max-width: 100%;
+  margin:  0 3px;
+
+
+}
+
+
+
+
+
+
+.email {
+  display: flex;
+  }
+
+  .nome{
+    display: ;
+  }
+
+
+
+ 
+  
+
+
+
+
+  
+
+ .container button {
+  background-color: purple;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: none;
+  font-size:0.6;
+  margin-left: 5px;
+  
+}
+
+
+
+.tabela{
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  
+
+  
+  
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  border: thin solid #ffffff1a;
+
+
+}
+
+table thead {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+thead th,
+tbody td {
+  padding: 12px 16px;
+}
+
+tbody td {
+  border-top: 1px solid #ffffff1a;
+  font-size: 13px;
+  line-height: 15px;
+  color: #c4c4cc;
+}
+
+tbody td strong {
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+tbody td small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+tbody td button {
+  all: unset;
+  color: purple;
+}
+
+tbody td button:hover {
+  text-decoration: underline;
+}
+
+@media  (max-width:790px)  {
+    body {
+      
+    }
+
+    
+    table{
+       width: 100%;
+    }
+
+
+    .formulario{
+      display: flex;
+      justify-content: center;
+
+    }
+
+    
+    .form-conteudo {
+      display: flex;
+       flex-direction: column;
+       padding:auto;
+       justify-content: center;
+    
+      
+      
+    }
+
+    .formulario {
+      margin:0 auto ;
+
+        
+    }
+
+    .email {
+      display: flex;
+      
+    }
+
+    .nome{
+      display: flex;
+       
+    }
+
+    
+    .form-conteudo input,button{
+      margin-bottom: 15px;
+    }
+
+    input {
+
+    }
+
+
+    
+
+   
+   .container input {
+      height: 10px;
+      width: 300px;
+    
+    
+    }
+
+   
+
+    .botao {
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .container{
+       display: flex;
+       flex-direction: column;
+        
+    }
+
+     .container  button{
+        width: 95%;
+      margin: 0 auto;
+        
+
+    }
+}
