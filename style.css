@@ -144,22 +144,6 @@ tbody td button:hover {
       
     }
 
-    .tabela {
-       display: flex;
-       justify-content: start;
-       margin: 0;
-       flex-direction: column;
-    }
-
-    
-     .tabela table{
-      display: block;
-      width: 380px;
-      margin: 0 auto;
-    
-
-      
-    }
 
 
     .formulario{
@@ -210,7 +194,7 @@ tbody td button:hover {
    
    .container input {
       height: 10px;
-      width: 350px;
+      width: 300px;
     
     
     }
